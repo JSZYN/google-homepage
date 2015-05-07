@@ -1,8 +1,91 @@
-.container {
-	width: 340px;
-	padding-top: 150px;
+.header ul {
+	list-style-type: none;
+	margin: 20px;
+	padding: 0;
 }
-.container img {
+
+.header li {
+	color: #404040;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	float: right;
+	display: inline-block;
+	width: 60px;
+}
+
+#sign_in {
+	line-height: 28px;
+	display: block;
+	background-color: rgb(66, 133, 244);
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 0 12px;
+	border: 1px;
+	border-radius: 2px;
+	margin-right: 20px;
+}
+
+.main {
+	text-align: center;
+	padding-top: 180px;
+}
+
+.main img {
+	height: 95px;
+	width: 269px;
+}
+.main form input {
+	height: 28px;
+	width: 539px;
+	margin-top: 20px;
+	border: 1px solid #d9d9d9;
+}
+
+.center{
+	text-align: center;
+}
+.buttons {
+	display: inline-block;
+	height: 29px;
+	width: 118px;
+	margin: 11px 8px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 11px;
+	padding: 0 8px;
+	background-color: #f5f5f5;
+	border-radius: 2px;
+	border: 1px solid rgba(0,0,0,0.1);
+
+}
+
+#footer {
+	height: 38px;
 	width: 100%;
-	height: auto;
+	position: absolute;
+	bottom: 0px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	margin-left: -5px;
+	color: #666;
+	line-height: 10px;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	}
+
+.left li {
+	float:left;
+	display: inline-block;
+	list-style-type: none;
+	width: 100px;
+	margin-left: -10px;
+}
+
+.right li {
+	float:right;
+	display: inline-block;
+	list-style-type: none;
+	width: 70px;
 }
